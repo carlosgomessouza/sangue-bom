@@ -1,3 +1,4 @@
+/*
 package com.example.sangue_bom.controller;
 
 import org.springframework.security.core.Authentication;
@@ -17,3 +18,4 @@ public class DashboardController {
         return "menu"; // Renderiza o arquivo dashboard.html em src/main/resources/templates
     }
 }
+*/

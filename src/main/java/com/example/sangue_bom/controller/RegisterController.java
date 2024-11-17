@@ -2,7 +2,9 @@ package com.example.sangue_bom.controller;
 
 import com.example.sangue_bom.model.User;
 import com.example.sangue_bom.repository.UserRepository;
+/*
 import org.springframework.security.crypto.password.PasswordEncoder;
+*/
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
