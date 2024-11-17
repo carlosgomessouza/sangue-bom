@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Sangue Bom</title>
+
+    <link rel="icon" type="image/jpg" href="/img/logo.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="/css/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="/css/sb-admin-2.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+<!-- Page Wrapper -->
+<div id="wrapper" style="background-color: pink;">
+
+    <!-- Sidebar -->
+    <div th:replace="fragments :: nav" ></div>
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content">
+
+            <!-- Dica de saude -->
+            <div class="row" style="padding: 3%; width: 100%;">
+                <div class="container-fluid">
+                    <h1 class="h3 mb-2 text-gray-800">Doação</h1>
+                    <p class="mb-4">Existem muitas suposições que contradizem oque a doação de sangue é de fato, aqui temos informações concretas que quebram esses paradigmas falsos. </p>
+                </div>
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-danger shadow h-100 py-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col mr-2">
+                                    <h2>Etapas</h2>
+                                    <p>Saiba quais são as etapas da doação de Sangue</p>
+                                    <button class="button2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"> Saiba mais </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Etapas</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <ol style="text-align: justify; padding: 4%;">
+                                    <li><b>Cadastro do Doador</b></li>
+                                    O processo de doação se inicia na recepção é realizado o cadastro do doador mediante a apresentação de documento oficial com foto.
+                                    <br>
+                                    <li><b>Triagem Hematológica</b></li>
+                                    Nesta etapa é realizado teste de hemoglobina para identificar a anemia, também são verificados os sinais vitais do doador
+                                    <br>
+                                    <li><b>Triagem Clínica</b></li>
+                                    O doador passa por uma entrevista com um profissional capacitado para avaliar seus hábitos comportamentais e suas condições de saúde. Este é um momento muito importante para que a doação seja segura.
+                                    <br>
+                                    <li><b>Coleta de Sangue-Doação propriamente dita</b></li>
+                                    Depois de constatar que o voluntário está apto a doar, é realizada uma coleta de sangue. O doador é posicionado em uma cadeira semi-sentado, uma veia de um dos braços é puncionada e a coleta é realizada numa bolsa plástica que contém uma solução anticoagulante
+                                    <br>
+                                    <li><b>Lanche</b></li>
+                                    O lanche é servido após a doação para repor as necessidades nutricionais imediatas do doador, o mais importante é a reposição líquida. Nesse momento, é necessário permanecer no mínimo 15 minutos .
+                                </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Earnings (Monthly) Card Example -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-danger shadow h-100 py-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col mr-2">
+                                    <h2>Requisitos</h2>
+                                    <p>Saiba quais são os requisitos para a doação </p>
+                                    <button class="button2" data-toggle="modal" data-target="#exampleModa2" data-whatever="@mdo"> Saiba mais </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Requisitos</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <ol style="text-align: justify; padding: 4%;">
+                                    <li><b>Saúde</b></li>
+                                    Estar em boas condições de saúde.
+
+                                    <li><b>Triagem Hematológica</b></li>
+                                    Ter entre 16 e 69 anos, desde que a primeira doação tenha sido feita até 60 anos (menores de 18 anos, clique para ver documentos necessários e formulário de autorização).
+
+                                    <li><b>Triagem Clínica</b></li>
+                                    Pesar no mínimo 50kg.
+
+                                    <li><b>Coleta de Sangue-Doação propriamente dita</b></li>
+                                    Estar descansado (ter dormido pelo menos 6 horas nas últimas 24 horas).
+
+                                    <li><b>Lanche</b></li>
+                                    Estar alimentado (evitar alimentação gordurosa nas 4 horas que antecedem a doação).
+
+                                    <li><b>Lanche</b></li>
+                                    Apresentar documento original com foto recente, que permita a identificação do candidato, emitido po
+                                    por órgão oficial (Carteira de Identidade, Cartão de Identidade de Profissional Liberal, Carteira de Trabalho e Previdência Social, Carteira Nacional de Habilitação e RNE-Registro Nacional de Estrangeiro*).
+
+                                </ol>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-danger shadow h-100 py-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col mr-2">
+                                    <h2>Mitos</h2>
+                                    <p>Saiba quais são os mitos da doação de Sangue</p>
+                                    <button class="button2" data-toggle="modal" data-target="#exampleModa3" data-whatever="@mdo"> Saiba mais </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Mitos</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <ul style="text-align: justify; padding: 4%;">
+                                    <li><b>Doar pode prejudicar a saúde do doador </b></li>
+                                    Após uma doação, o sangue tende a voltar ao normal rapidamente e, portanto, não há fraqueza.
+
+                                    <li><b> Só podem doar sangue maiores de idade </b></li>
+                                    Adolescentes de 16 e 17 anos podem doar sangue. Fisicamente eles já estão aptos para doar sangue, desde que cumpram todos os requisitos básicos para doação, mas por serem menores de 18 anos, precisam de autorização dos pais ou responsável.
+
+                                    <li><b> Pessoas com menos de 50 kg não podem doar</b></li>
+                                    O peso do voluntário deve ser a partir de 50 quilos.
+
+                                    <li><b> Idosos não podem doar sangue</b></li>
+                                    Em 2013, houve aumento na idade máxima dos doadores de sangue pelo Ministério da Saúde. Atualmente, pessoas entre 16 e 69 anos podem realizar o ato de doação.
+
+                                    <li><b>Doar engorda </b></li>
+                                    Não engorda nem emagrece. O volume de liquido é reposto em 24 horas.
+
+                                    <li><b>O doador não tem risco de contagio de doenças </b></li>
+                                    Verdade, pois todo o material utilizado é descartável, não há contato com sangue de outra pessoa.
+
+                                    <li><b>Não posso doar sangue após ter sido vacinado  </b></li>
+                                    É recomendado levar a carteira de vacinação no dia da doação. Vacinas para hepatite B, impedem a doação por 48 horas.
+
+                                    <li><b> Quem teve dengue nunca mais pode doar sangue</b></li>
+                                    Mentira. O organismo cria anticorpos contra as infecções virais e com isso o virus é neutralizado.
+
+                                    <li><b> O doador não vai sentir falta desse sangue no seu corpo</b></li>
+                                    A reposição do volume de plasma ocorre em 24 horas e a dos glóbulos vermelhos em 4 semanas. Entretanto, para o organismo atingir o mesmo nível de estoque de ferro que apresentava antes da doação, são necessárias 8 semanas para os homens e 12 semanas para as mulheres.
+
+                                    <li><b>Quem tem piercing e tatuagem não pode doar </b></li>
+                                    Apenas pessoas com piercing na boca não podem doar sangue pois a boca está mais receptiva a infecções. Elas só estão aptas a doar 12 meses após a retirada.
+
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Earnings (Monthly) Card Example -->
+                <div class="col-xl-3 col-md-6 mb-4">
+                    <div class="card border-left-danger shadow h-100 py-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col mr-2">
+                                    <h2>Vantagens</h2>
+                                    <p>Saiba quais são os requisitos para a doação </p>
+                                    <button class="button2" data-toggle="modal" data-target="#exampleModa4" data-whatever="@mdo"> Saiba mais </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Vantagens</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <ol style="text-align: justify; padding: 4%;">
+                                <li>Uma doação de sangue pode salvar até 4 vidas</li>
+                                <li>O doador tem direito a um dia de folga no trabalho</li>
+                                <li>Não há risco de contrair doenças na doação de sangue</li>
+                                <li>Seu organismo repõe rapidamente o sangue doado</li>
+                                <li>A doação de sangue não faz ninguém engordar ou emagrecer</li>
+                                <li>Ajudar outras pessoas faz bem para você também</li>
+                            </ol>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+            <!-- Bootstrap and Custom Scripts -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12rI9gFfUcM8zT9196bKff5GEdld6o8Q8P9ubMT6g/ckVw3It" crossorigin="anonymous"></script>
+            <script src="/css/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="/js/sb-admin-2.min.js"></script>
+            <script src="/css/vendor/jquery/jquery.min.js"></script>
+            <script src="/css/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <script src="/css/vendor/jquery-easing/jquery.easing.min.js"></script>
+            <script src="/js/sb-admin-2.min.js"></script>
+            <script src="/css/vendor/chart.js/Chart.min.js"></script>
+            <script src="/js/demo/chart-area-demo.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="/js/demo/chart-pie-demo.js"></script>
+            <script>
+                $('#exampleModal').on('show.bs.modal', function(event) {
+                    var button = $(event.relatedTarget) // Button that triggered the modal
+                    var recipient = button.data('whatever') // Extract info from data-* attributes
+                        // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                        // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+                    var modal = $(this)
+                    modal.find('.modal-title').text('Etapas')
+                    modal.find('.modal-body input').val(recipient)
+                })
+            </script>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

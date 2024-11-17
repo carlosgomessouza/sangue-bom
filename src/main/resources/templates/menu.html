@@ -1,16 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns:th="http://www.w3.org/1999/xhtml">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Sangue Bom</title>
-    <link rel="icon" type="image/jpg" href="/img/logo.png" />
-    <link href="/css/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="/css/sb-admin-2.min.css" rel="stylesheet">
-</head>
+<div th:replace="fragments :: head" ></div>
+
 
 <body id="page-top">
 
@@ -18,52 +10,7 @@
 <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: pink;">
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-            <div class="sidebar-brand-icon">
-                <img src="/img/logo.png" width="50%" height="50%">
-            </div>
-            <div class="sidebar-brand-text mx-3"><b>SANGUE BOM</b></div>
-        </a>
-        <hr class="sidebar-divider my-0">
-
-        <li class="nav-item">
-            <a class="nav-link" href="">
-                <i class="fas fa-home"></i>
-                <span>Inicio</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="">
-                <i class="fas fa-user"></i>
-                <span>Perfil</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="agenda.html">
-                <i class="fas fa-calendar-check"></i>
-                <span>Agenda</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="doacao.html">
-                <i class="fas fa-tint"></i>
-                <span>Doação</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="hospitais.html">
-                <i class="fas fa-hospital"></i>
-                <span>Hospitais</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="">
-                <i class="fas fa-award"></i>
-                <span>Ranking</span>
-            </a>
-        </li>
-    </ul>
+    <div th:replace="fragments :: nav" ></div>
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">

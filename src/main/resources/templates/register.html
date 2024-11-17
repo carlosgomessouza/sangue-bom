@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="utf-8">
     <title>Sangue Bom</title>
 
     <!-- Estilos e fontes -->
-    <link rel="stylesheet" href="CSS/cadastro.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -29,15 +29,15 @@
         <div id="div1">
             <h1 class="titulo">CADASTRO</h1>
             <hr style="width: 90%;">
-            <form action="" method="post" id="formCadastrar" onsubmit="return validarLogin();">
+            <form id="formCadastrar" th:action="@{/v1/user}" th:object="${user}" method="post">
                 <fieldset class="grupo">
                     <header class="campo">
                         <label for="nome">Nome</label>
-                        <input type="text" id="NOME_USUARIO" name="NOME_USUARIO" autofocus required>
+                        <input type="text" id="NOME_USUARIO" th:field="*{firstName}" autofocus required>
                     </header>
                     <header class="campo">
                         <label for="snome">Sobrenome</label>
-                        <input type="text" id="SOBRENOME_USUARIO" name="SOBRENOME_USUARIO" required>
+                        <input type="text" id="SOBRENOME_USUARIO" th:field="*{lastName}" required>
                     </header>
                 </fieldset>
                 <br>
@@ -51,21 +51,21 @@
                 </header>
                 <header class="campo">
                     <label for="cpf">CPF</label>
-                    <input type="text" id="CPF" name="CPF" autocomplete="off" maxlength="14" required>
+                    <input type="text" id="CPF" name="CPF" autocomplete="off" maxlength="14" th:field="*{cpf}" required>
                 </header>
                 <header class="campo">
                     <label for="rg">RG</label>
-                    <input type="text" id="RG" name="RG" autocomplete="off" maxlength="12" onkeyup="mascara_rg()">
+                    <input type="text" id="RG" name="RG" autocomplete="off" maxlength="12" th:field="*{rg}" onkeyup="mascara_rg()">
                 </header>
                 <br>
                 <fieldset class="grupo">
                     <header class="campo">
                         <label for="data_nascimento">Data de Nascimento</label>
-                        <input type="date" class="form-control" id="DATA_NASCIMENTO" name="DATA_NASCIMENTO" required>
+                        <input type="date" class="form-control" id="DATA_NASCIMENTO" th:field="*{birthDate}" required>
                     </header>
                     <header class="campo">
                         <label for="tipo_sangue">Tipo de Sangue</label>
-                        <select name="SANGUE" id="SANGUE">
+                        <select id="SANGUE" th:field="*{bloodType}">
                             <option value="9">Não sei</option>
                             <option value="1">A+</option>
                             <option value="2">A-</option>
@@ -79,28 +79,16 @@
                     </header>
                 </fieldset>
                 <br>
-                <header class="campo">
-                    <label for="telefone">Telefone</label>
-                    <input type="tel" id="NUM_TELEFONE" name="NUM_TELEFONE" autocomplete="off" maxlength="12" onkeyup="val()" style="width: 100%" required>
-                    <br>
-                    <button class="button1" name="submit" type="submit">Próximo</button>
-                </header>
-            </form>
-        </div>
-
-        <div id="div2" class="luiz">
-            <h1 class="titulo">CADASTRO</h1>
-            <hr style="width: 90%;">
-            <br>
-            <form action="" method="post" id="formCadastrar2" onsubmit="return validarLogin();">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="NUM_TELEFONE" th:field="*{phoneNumber}" autocomplete="off" maxlength="12" onkeyup="val()" style="width: 100%" required>
                 <fieldset class="grupo" style="width: 100%;">
                     <header class="campo">
                         <label for="cep">CEP</label>
-                        <input type="text" id="CEP" name="CEP">
+                        <input type="text" id="CEP" th:field="*{zipCode}">
                     </header>
                     <header class="campo">
                         <label for="estado">Estado</label>
-                        <select id="ESTADO" name="ESTADO" required>
+                        <select id="ESTADO" name="ESTADO" required th:field="*{state}">
                             <option value="AC">Acre</option>
                             <option value="AL">Alagoas</option>
                             <option value="AP">Amapá</option>
@@ -136,39 +124,39 @@
                 <fieldset class="grupo">
                     <header class="campo">
                         <label for="cidade">Cidade</label>
-                        <input type="text" id="CIDADE" name="CIDADE" required>
+                        <input type="text" id="CIDADE" th:field="*{city}" required>
                     </header>
                     <header class="campo">
                         <label for="bairro">Bairro</label>
-                        <input type="text" id="BAIRRO" name="BAIRRO" required>
+                        <input type="text" id="BAIRRO" th:field="*{neighborhood}" required>
                     </header>
                 </fieldset>
                 <br>
                 <fieldset class="grupo">
                     <header class="campo">
                         <label for="rua">Rua</label>
-                        <input type="text" id="RUA" name="RUA" required>
+                        <input type="text" id="RUA" th:field="*{street}" required>
                     </header>
                     <header class="campo">
                         <label for="numero">Numero</label>
-                        <input type="text" id="NUMERO" name="NUMERO" required>
+                        <input type="text" id="NUMERO" th:field="*{houseNumber}" required>
                     </header>
                 </fieldset>
                 <br>
                 <header class="campo">
                     <label for="complemento">Complemento</label>
-                    <input type="text" id="COMPLEMENTO_USUARIO" name="COMPLEMENTO_USUARIO" required>
+                    <input type="text" id="COMPLEMENTO_USUARIO" th:field="*{complement}" required>
                 </header>
                 <br>
                 <header class="campo">
                     <label for="email">E-mail</label>
-                    <input type="email" id="EMAIL_USUARIO" name="EMAIL_USUARIO" required>
+                    <input type="email" id="EMAIL_USUARIO" th:field="*{login}" required>
                 </header>
                 <br>
                 <fieldset class="grupo">
                     <header class="campo">
                         <label for="senha">Senha</label>
-                        <input type="password" id="SENHA_USUARIO" name="SENHA_USUARIO" required>
+                        <input type="password" id="SENHA_USUARIO" th:field="*{password}" required>
                     </header>
                     <header class="campo">
                         <label for="senha2">Repita a Senha</label>
@@ -179,17 +167,19 @@
                 <button class="button1" name="submit" type="submit">Cadastro</button>
             </form>
         </div>
+
+
     </aside>
 
     <div id="senhaErro" style="display:none;">As senhas não correspondem!</div>
     <div id="cpfErro" style="display:none;">CPF inválido, insira um correto!</div>
 
     <!-- Scripts adicionais -->
-    <script src="JS/jquery.mask.js"></script>
-    <script src="JS/validaData.js"></script>
-    <script src="JS/mascarasCampos.js"></script>
-    <script src="JS/validarSenha.js"></script>
-    <script src="JS/cep.js"></script>
+    <script src="/js/jquery.mask.js"></script>
+    <script src="/js/validaData.js"></script>
+    <script src="/js/mascarasCampos.js"></script>
+    <script src="/js/validarSenha.js"></script>
+    <script src="/js/cep.js"></script>
 
     <script>
         $(document).ready(function () {
