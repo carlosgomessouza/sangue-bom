@@ -1,0 +1,299 @@
+Biblioteca,Descricao do tipo de obra,Total de obras,Total de exemplares,Total de exemplares adicionais
+Materiais on-line,Livros,38,0,0
+Materiais on-line,Artigos,12,0,0
+Materiais on-line,Dissertações,23,0,0
+Materiais on-line,TCC - Graduação,562,0,0
+Materiais on-line,Livro eletrônico,175,0,0
+Materiais on-line,Teses,22,0,0
+Materiais on-line,TCCP - Pós-Graduação,70,0,0
+Materiais on-line,Periódicos,3,0,0
+Materiais on-line,Periódicos avulsos em bases se,1,0,0
+Materiais on-line,Manual,1,0,0
+Materiais on-line,Relatórios,3,0,0
+Materiais on-line,TFC (Trab.Final Curso Tecnico),78,0,0
+Araraquara,Livros,2157,8788,0
+Araraquara,Apostila,1,1,0
+Araraquara,Literatura,1,1,0
+Araraquara,Periódicos,54,722,0
+Araraquara,DVD,2,2,0
+Araraquara,Referência,12,59,0
+Avaré,Livros,1985,7010,0
+Avaré,Folhetos,1,3,0
+Avaré,Catálogo,12,46,0
+Avaré,Periódicos,13,46,0
+Avaré,DVD,4,4,0
+Avaré,CD-ROM,3,9,0
+Avaré,CD,27,47,0
+Avaré,Referência,3,24,0
+Barretos,Livros,1504,7635,76
+Barretos,Folhetos,2,6,0
+Barretos,Apostila,7,24,0
+Barretos,Periódicos,2,9,0
+Barretos,Referência,19,119,11
+Birigui,Livros,2880,8480,145
+Birigui,Folhetos,73,149,0
+Birigui,Artigos,10,0,0
+Birigui,Dissertações,2,2,0
+Birigui,TCC - Graduação,32,32,0
+Birigui,Livro eletrônico,1,1,0
+Birigui,Teses,2,2,0
+Birigui,TCCP - Pós-Graduação,1,1,0
+Birigui,Gravação de som,1,1,0
+Birigui,Periódicos,43,842,3
+Birigui,Periódicos avulsos em bases se,1,7,0
+Birigui,DVD,56,61,0
+Birigui,CD-ROM,20,25,0
+Birigui,CD,3,3,0
+Birigui,Referência,36,102,20
+Birigui,Relatórios,1,1,0
+Birigui,Kit / Jogo,1,1,0
+Birigui,Normas,15,26,0
+Birigui,TFC (Trab.Final Curso Tecnico),71,71,0
+Birigui,Fone de ouvido,1,8,0
+Birigui,Tridimensional,1,1,0
+Boituva,Livros,1258,5136,94
+Boituva,Periódicos,1,45,0
+Boituva,Referência,9,15,0
+Bragança Paulista,Livros,2663,8233,7
+Bragança Paulista,Folhetos,5,5,0
+Bragança Paulista,Apostila,12,12,0
+Bragança Paulista,Dissertações,1,1,0
+Bragança Paulista,TCC - Graduação,3,3,0
+Bragança Paulista,Gravação de som,1,1,0
+Bragança Paulista,Periódicos,72,1581,0
+Bragança Paulista,Manual,10,10,0
+Bragança Paulista,DVD,31,62,0
+Bragança Paulista,Mapas,1,1,0
+Bragança Paulista,CD-ROM,82,261,0
+Bragança Paulista,CD,8,17,0
+Bragança Paulista,Referência,15,68,0
+Bragança Paulista,Relatórios,1,1,0
+Bragança Paulista,Evento / Anais,16,18,0
+Bragança Paulista,Kit / Jogo,13,39,0
+Bragança Paulista,Documento,1,1,0
+Caraguatatuba,Livros,3530,11700,297
+Caraguatatuba,Folhetos,4,12,2
+Caraguatatuba,Catálogo,1,6,0
+Caraguatatuba,Artigos,1,0,0
+Caraguatatuba,Apostila,1,1,0
+Caraguatatuba,Dissertações,6,6,2
+Caraguatatuba,TCC - Graduação,79,78,48
+Caraguatatuba,Teses,8,8,1
+Caraguatatuba,Periódicos,2,18,0
+Caraguatatuba,DVD,7,12,2
+Caraguatatuba,CD-ROM,9,10,4
+Caraguatatuba,Referência,43,77,12
+Caraguatatuba,Relatórios,2,4,0
+Caraguatatuba,Evento / Anais,1,1,0
+Catanduva,Livros,1703,6245,0
+Catanduva,Dissertações,1,1,0
+Catanduva,Teses,1,1,0
+Catanduva,Periódicos,12,169,0
+Catanduva,DVD,3,3,0
+Catanduva,Referência,7,33,0
+Guarulhos,Livros,2108,8547,0
+Guarulhos,Dissertações,1,1,0
+Guarulhos,TCC - Graduação,100,100,0
+Guarulhos,TCCP - Pós-Graduação,4,4,0
+Guarulhos,Periódicos,1,13,0
+Guarulhos,DVD,1,2,0
+Guarulhos,CD-ROM,1,1,0
+Guarulhos,Referência,9,21,0
+Guarulhos,TFC (Trab.Final Curso Tecnico),16,16,0
+Hortolândia,Livros,1342,4149,123
+Hortolândia,Teses,2,2,0
+Hortolândia,Periódicos,12,221,5
+Hortolândia,CD-ROM,5,24,0
+Hortolândia,Referência,6,14,27
+Hortolândia,Evento / Anais,4,1,3
+Itapetininga,Livros,1657,7373,5
+Itapetininga,Folhetos,2,2,0
+Itapetininga,Catálogo,1,8,0
+Itapetininga,Dissertações,3,3,0
+Itapetininga,TCC - Graduação,11,9,2
+Itapetininga,Livro eletrônico,2,2,0
+Itapetininga,TCCP - Pós-Graduação,14,14,0
+Itapetininga,Periódicos,3,34,0
+Itapetininga,DVD,16,20,0
+Itapetininga,CD-ROM,104,125,0
+Itapetininga,CD,1,1,0
+Itapetininga,Referência,11,39,0
+Itapetininga,Evento / Anais,1,1,0
+Matão,Livros,1147,7580,13
+Matão,Dissertações,2,3,0
+Matão,TCC - Graduação,66,67,0
+Matão,Teses,2,2,0
+Matão,TCCP - Pós-Graduação,26,26,0
+Matão,Periódicos,43,542,3
+Matão,DVD,10,10,0
+Matão,CD-ROM,1,1,0
+Matão,Referência,4,23,0
+Matão,Evento / Anais,7,10,0
+Matão,Kit / Jogo,1,7,0
+Matão,Fone de ouvido,2,8,0
+Piracicaba,Livros,1424,4880,19
+Piracicaba,Apostila,1,1,0
+Piracicaba,Periódicos,2,47,0
+Piracicaba,Referência,7,22,0
+Presidente Epitácio,Livros,2231,8099,0
+Presidente Epitácio,Literatura,2,2,0
+Presidente Epitácio,Periódicos,17,978,0
+Presidente Epitácio,DVD,1,2,0
+Presidente Epitácio,CD,1,1,0
+Presidente Epitácio,Referência,14,122,0
+Presidente Epitácio,Kit / Jogo,9,28,0
+Presidente Epitácio,Fone de ouvido,1,4,0
+Registro,Livros,1705,6587,0
+Registro,Folhetos,3,4,0
+Registro,Periódicos,2,31,0
+Registro,DVD,1,2,0
+Registro,Referência,8,50,0
+Registro,Kit / Jogo,7,37,0
+Registro,Normas,5,7,0
+Registro,Fone de ouvido,1,8,0
+Salto,Livros,1497,5020,2
+Salto,TCC - Graduação,25,26,0
+Salto,Gravação de som,1,1,0
+Salto,Periódicos,4,78,0
+Salto,DVD,1,1,0
+Salto,CD-ROM,63,273,17
+Salto,Referência,19,23,0
+São Carlos,Livros,1667,7996,48
+São Carlos,Folhetos,1,1,0
+São Carlos,Gravação de som,1,0,18
+São Carlos,Periódicos,4,94,0
+São Carlos,DVD,8,3,21
+São Carlos,CD-ROM,46,1,298
+São Carlos,CD,9,0,68
+São Carlos,Referência,14,51,0
+São Carlos,Normas,6,6,0
+São João Boa Vista,Livros,3243,10026,23
+São João Boa Vista,Apostila,1,1,0
+São João Boa Vista,Periódicos,18,261,0
+São João Boa Vista,DVD,2,1,10
+São João Boa Vista,Gravação de Vídeo,1,4,0
+São João Boa Vista,Mapas,4,6,0
+São João Boa Vista,CD-ROM,48,72,189
+São João Boa Vista,CD,3,0,13
+São João Boa Vista,Referência,34,89,2
+São João Boa Vista,Chave Sala em grupo,1,1,0
+São Roque,Livros,6211,12936,0
+São Roque,Folhetos,2,4,0
+São Roque,Catálogo,1,1,0
+São Roque,Apostila,10,13,0
+São Roque,Dissertações,1,2,0
+São Roque,Teses,6,7,0
+São Roque,Software,2,3,0
+São Roque,Periódicos,60,1088,0
+São Roque,Periódicos avulsos em bases se,110,142,0
+São Roque,DVD,166,205,0
+São Roque,Gravação de Vídeo,1,2,0
+São Roque,CD-ROM,13,27,0
+São Roque,CD,1,1,0
+São Roque,Referência,11,39,0
+São Roque,Evento / Anais,4,5,0
+São Roque,Fone de ouvido,5,94,0
+São Roque,Equipamento Eletrônico,3,3,0
+Sertãozinho,Livros,3280,11053,0
+Sertãozinho,Catálogo,1,3,0
+Sertãozinho,Apostila,33,67,0
+Sertãozinho,TCC - Graduação,21,29,0
+Sertãozinho,Teses,50,76,0
+Sertãozinho,Gravação de som,1,1,0
+Sertãozinho,Periódicos,125,2791,0
+Sertãozinho,CD-ROM,1,1,0
+Sertãozinho,Referência,15,57,0
+Suzano,Livros,1873,6056,112
+Suzano,Catálogo,1,1,0
+Suzano,Artigos,58,0,0
+Suzano,TCC - Graduação,2,2,0
+Suzano,Periódicos,11,104,1
+Suzano,Manual,1,1,0
+Suzano,DVD,29,29,0
+Suzano,CD-ROM,8,4,11
+Suzano,CD,18,22,52
+Suzano,Referência,17,35,2
+Suzano,TFC (Trab.Final Curso Tecnico),46,45,1
+Suzano,Fone de ouvido,1,7,0
+Votuporanga,Livros,3267,10965,0
+Votuporanga,Artigos,10,0,0
+Votuporanga,Dissertações,5,5,0
+Votuporanga,Teses,4,4,0
+Votuporanga,TCCP - Pós-Graduação,1,1,0
+Votuporanga,Periódicos,14,343,0
+Votuporanga,DVD,18,28,0
+Votuporanga,CD-ROM,8,13,0
+Votuporanga,Referência,12,15,0
+Votuporanga,TFC (Trab.Final Curso Tecnico),24,25,0
+Campinas,Livros,852,3161,63
+Campinas,Gravação de som,55,66,0
+Campinas,Periódicos,6,209,108
+Campinas,DVD,2,3,0
+Campinas,Braile,5,10,0
+Campinas,CD-ROM,8,13,0
+Campinas,Referência,6,12,3
+Campinas,Equipamento Eletrônico,1,8,0
+Capivari,Livros,2433,7297,42
+Capivari,TCC - Graduação,13,2,11
+Capivari,Teses,1,1,0
+Capivari,Periódicos,26,409,0
+Capivari,CD-ROM,5,13,0
+Capivari,Referência,29,90,4
+Capivari,TFC (Trab.Final Curso Tecnico),77,51,26
+Capivari,Fone de ouvido,1,4,0
+Cubatão,Livros,4048,9813,0
+Cubatão,Apostila,1,2,0
+Cubatão,Dissertações,1,1,0
+Cubatão,TCC - Graduação,238,238,0
+Cubatão,Livro eletrônico,2,2,0
+Cubatão,Periódicos,1,5,0
+Cubatão,CD-ROM,3,13,0
+Cubatão,Referência,5,9,0
+Cubatão,TFC (Trab.Final Curso Tecnico),76,76,0
+Jacarei,Livros,1920,6049,10
+Jacarei,Dissertações,1,1,0
+Jacarei,Periódicos,29,229,4
+Jacarei,Referência,22,103,16
+Jacarei,Fone de ouvido,1,1,0
+São José dos Campos,Livros,660,4497,0
+São José dos Campos,Livro eletrônico,1,1,0
+São José dos Campos,Periódicos,7,254,0
+São José dos Campos,Referência,4,36,0
+São Paulo,Livros,6547,28770,358
+São Paulo,Dissertações,29,27,7
+São Paulo,Teses,7,2,5
+São Paulo,Periódicos,15,148,0
+São Paulo,Manual,2,4,0
+São Paulo,Referência,108,385,25
+Reitoria,Livros,1,1,0
+Reitoria,Periódicos,1,9,0
+Jundiaí,Livros,1182,3036,47
+Jundiaí,DVD,12,12,0
+Jundiaí,CD-ROM,1,2,0
+Jundiaí,Referência,11,28,8
+Jundiaí,Kit / Jogo,8,47,0
+Sorocaba,Livros,1235,3915,0
+Sorocaba,Folhetos,2,3,0
+Sorocaba,Catálogo,1,1,0
+Sorocaba,Dissertações,1,1,0
+Sorocaba,Periódicos,9,238,0
+Sorocaba,Braile,3,6,0
+Sorocaba,CD-ROM,1,6,0
+Sorocaba,Referência,2,16,0
+Campos do Jordão,Livros,1265,4371,40
+Campos do Jordão,TCC - Graduação,6,6,0
+Campos do Jordão,Periódicos,3,22,0
+Campos do Jordão,Referência,10,26,0
+Ilha Solteira,Livros,284,845,17
+Ilha Solteira,Referência,3,10,3
+Ilha Solteira,Kit / Jogo,8,28,0
+Ilha Solteira,Fone de ouvido,1,6,0
+Tupã,Livros,627,1625,0
+Tupã,Periódicos,8,20,0
+Tupã,DVD,5,5,0
+Tupã,CD-ROM,2,19,0
+Tupã,Referência,3,6,0
+Pirituba,Livros,1136,4329,0
+Pirituba,CD-ROM,4,17,0
+Pirituba,Referência,12,37,0
+Itaquaquecetuba,Livros,86,549,0

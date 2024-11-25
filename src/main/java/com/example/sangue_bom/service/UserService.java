@@ -2,6 +2,7 @@ package com.example.sangue_bom.service;
 
 import com.example.sangue_bom.model.User;
 import com.example.sangue_bom.repository.UserRepository;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -52,5 +53,10 @@ public class UserService {
 
     public void delete(Long id) {
         userRepository.deleteById(id);
+    }
+
+    public User findByEmail(String email){
+        return userRepository.findByLogin(email)
+                .orElseThrow(() -> new UsernameNotFoundException("User not found with email: " ));
     }
 }

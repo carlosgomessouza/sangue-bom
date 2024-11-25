@@ -18,4 +18,8 @@ public class Agenda {
     private String hospital;
     private String date;
     private String hora;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 }

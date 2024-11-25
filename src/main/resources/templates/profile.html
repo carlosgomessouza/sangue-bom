@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,22 +59,37 @@
                         <h5 class="font-weight-bold">Número de Doações</h5>
                         <p>Você doou:</p>
                         <div class="progress mb-4">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 30%">1 vez</div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" th:text="${donationSummary.donationQuantity} "></div>
                         </div>
 
                         <h5 class="font-weight-bold">Última Doação</h5>
                         <p>Sua última doação foi há:</p>
                         <div class="progress mb-4">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 66%">2 Meses</div>
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 66%" th:text="${donationSummary.nextDonation} + meses "></div>
                         </div>
 
                         <h5 class="font-weight-bold">Dados Pessoais</h5>
                         <div class="card border-left-primary shadow py-2">
                             <table class="table">
                                 <tbody>
-                                <tr><td>Nome: </td><td>Sobrenome: </td></tr>
-                                <tr><td>CPF: </td><td>RG: </td></tr>
-                                <tr><td>Email: </td><td>Tipo de Sangue: </td></tr>
+                                <tr>    <td>
+                                    <strong>Nome:</strong> <span th:text="${user.firstName}"></span>
+                                </td>
+                                    <td>
+                                        <strong>Sobrenome:</strong> <span th:text="${user.lastName}"></span>
+                                    </td></tr>
+                                <tr>    <td>
+                                    <strong>CPF:</strong> <span th:text="${user.cpf}"></span>
+                                </td>
+                                    <td>
+                                        <strong>RG:</strong> <span th:text="${user.rg}"></span>
+                                    </td></tr>
+                                <tr>    <td>
+                                    <strong>Email:</strong> <span th:text="${user.login}"></span>
+                                </td>
+                                    <td>
+                                        <strong>Tipo de Sangue:</strong> <span th:text="${user.bloodType}"></span>
+                                    </td></tr>
                                 </tbody>
                             </table>
                         </div>
@@ -87,9 +102,18 @@
                         <h5 class="font-weight-bold">Endereço</h5>
                         <table class="table">
                             <tbody>
-                            <tr><td>CEP: </td><td>Cidade: </td><td>Estado: </td></tr>
-                            <tr><td>Rua: </td><td>Bairro: </td></tr>
-                            <tr><td>Número: </td><td>Complemento: </td></tr>
+                            <tr>
+                                <td><strong>CEP:</strong> <span th:text="${user.zipCode}"></span> </td>
+                                <td><strong>Cidade:</strong> <span th:text="${user.city}"></span></td>
+                                <td><strong>Estado:</strong> <span th:text="${user.state}"></span></td></tr>
+                            <tr>
+                                <td><strong>Rua:</strong> <span th:text="${user.street}"></span></td>
+                                <td><strong>Bairro:</strong> <span th:text="${user.neighborhood}"></span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Numero:</strong> <span th:text="${user.houseNumber}"></span></td>
+                                <td><strong>Complemento:</strong> <span th:text="${user.complement}"></span></td>
+                            </tr>
                             </tbody>
                         </table>
                     </div>
